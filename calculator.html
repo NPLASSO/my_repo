@@ -3,16 +3,22 @@
 <script type="text/javascript">
 
 funcion cube(){
-var num = documentgetElementById("n1");
+var num = document.getElementById("n1");
 num.value = Math.pow(num.value, 3);
 
+}
+
+function seno(){
+var num = document.getElementBy Id("n3");
+num.value = Math.sin(num);
 }
 </script>
 </head>
 <body>
 Number:
 <input type="text" id = "n1"><p>
-
+<input type="text" id = "n3"><p>
 <button onclick="cube()">x^3</button>
+<button onclick="seno()">sin(x)</button>
 </body>
 </html>
